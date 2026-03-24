@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <circle cx="16" cy="16" r="16" fill="#2C2C2A"/>
+  <!-- V shape (simplified from logo) -->
+  <path d="M7 8 L13.5 24 L16 18 L18.5 24 L25 8 L22 8 L16 20.5 L10 8 Z" fill="#ee742a"/>
+  <!-- A shape (simplified) -->
+  <path d="M12.5 24 L19.5 24 L16 14 Z M11 28 L10 28 L16 12 L22 28 L21 28 L18.5 22 L13.5 22 Z" fill="#262625"/>
+</svg>
