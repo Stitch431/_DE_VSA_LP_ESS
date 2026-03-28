@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AGB — DE Visual StorySelling Academy</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #F8F6F0;
+    --text: #2C2C2A;
+    --text-muted: #888780;
+    --coral: #993C1D;
+    --coral-light: #FAECE7;
+    --coral-hover: #7A2F16;
+    --border: #D3D1C7;
+    --white: #FFFFFF;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* LOGO BAR */
+  .logo-bar {
+    padding: 1.75rem 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-bottom: 0.5px solid var(--border);
+  }
+  .logo-lockup {
+    display: flex;
+    align-items: center;
+    gap: .85rem;
+  }
+  .logo-icon { flex-shrink: 0; width: 44px; height: 44px; }
+  .logo-wordmark {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15rem;
+    font-weight: 400;
+    color: var(--text);
+    letter-spacing: .01em;
+    line-height: 1;
+  }
+  .logo-de { color: var(--text); }
+  .logo-story { color: var(--coral); }
+  .logo-academy { color: var(--text); }
+
+  /* MAIN CONTENT */
+  .page-content {
+    padding: 5rem 4rem 6rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .section-label {
+    font-size: .7rem;
+    font-weight: 500;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--coral);
+    margin-bottom: 1rem;
+  }
+  .coral-divider {
+    width: 40px;
+    height: 2px;
+    background: var(--coral);
+    margin-bottom: 1.5rem;
+  }
+  .page-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2rem, 3.5vw, 3rem);
+    font-weight: 500;
+    line-height: 1.1;
+    color: var(--text);
+    margin-bottom: 3rem;
+    letter-spacing: -.01em;
+  }
+
+  .content-block {
+    max-width: 680px;
+  }
+
+  .content-block h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--text);
+    margin-top: 2.5rem;
+    margin-bottom: .6rem;
+    letter-spacing: .01em;
+  }
+  .content-block h2:first-of-type {
+    margin-top: 0;
+  }
+
+  .content-block p {
+    font-size: 1rem;
+    color: #5F5E5A;
+    line-height: 1.85;
+    margin-bottom: .5rem;
+  }
+  .content-block p:last-child {
+    margin-bottom: 0;
+  }
+  .content-block a {
+    color: var(--coral);
+    text-decoration: none;
+  }
+  .content-block a:hover {
+    color: var(--coral-hover);
+    text-decoration: underline;
+  }
+
+  /* FOOTER */
+  footer {
+    padding: 2.5rem 4rem;
+    border-top: 0.5px solid var(--border);
+    background: var(--bg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .8rem;
+    color: var(--text-muted);
+  }
+  .footer-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: .95rem;
+    font-weight: 500;
+    color: var(--text);
+  }
+  .footer-links {
+    display: flex;
+    gap: 1.5rem;
+  }
+  .footer-links a {
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: .8rem;
+    letter-spacing: .02em;
+    transition: color 0.2s;
+  }
+  .footer-links a:hover { color: var(--coral); }
+  .footer-links a.active { color: var(--coral); }
+
+  /* RESPONSIVE */
+  @media (max-width: 900px) {
+    .logo-bar { padding: 1.5rem 1.5rem; }
+    .page-content { padding: 3rem 1.5rem 4rem; }
+    footer { flex-direction: column; gap: 1rem; text-align: center; padding: 2rem 1.5rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- LOGO -->
+<div class="logo-bar">
+  <div class="logo-lockup">
+    <div class="logo-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="44" viewBox="0 0 375 375" preserveAspectRatio="xMidYMid meet"><defs><clipPath id="lcp1"><path d="M 0 0 L 375 0 L 375 375 L 0 375 Z"/></clipPath></defs><g clip-path="url(#lcp1)"><path fill="#ececec" d="M 199.996094 23.292969 C 199.871094 23.992188 200.339844 23.734375 200.769531 23.753906 C 243.144531 25.761719 287.292969 48.53125 315.160156 80.984375 C 337.585938 107.105469 354.960938 144.855469 356.164062 180.125 C 356.179688 180.566406 355.933594 181.050781 356.613281 180.921875 L 356.613281 203.308594 C 355.9375 203.179688 356.175781 203.660156 356.164062 204.105469 C 355.878906 213.609375 353.933594 224.203125 351.652344 233.410156 C 336.925781 292.933594 291.03125 339.347656 233.523438 355.332031 C 223.257812 358.1875 211.339844 360.550781 200.546875 360.9375 C 200.113281 360.953125 199.644531 360.703125 199.769531 361.402344 L 177.523438 361.402344 C 177.652344 360.707031 177.179688 360.949219 176.75 360.9375 C 140.683594 359.792969 99.777344 340.769531 73.59375 315.707031 C 44.597656 287.953125 22.609375 245.648438 21.132812 204.335938 C 21.117188 203.890625 21.359375 203.410156 20.683594 203.539062 L 20.683594 181.382812 C 21.359375 181.511719 21.117188 181.03125 21.132812 180.585938 C 21.867188 158.972656 29.605469 133.28125 39.519531 114.300781 C 62.089844 71.070312 100.863281 40.746094 146.871094 28.617188 C 156.585938 26.054688 167.605469 24.074219 177.652344 23.753906 C 178.082031 23.742188 178.550781 23.988281 178.425781 23.292969 Z"/><g fill="#262625" fill-opacity="1"><g transform="translate(76.671928, 237.410168)"><g><path d="M 77.046875 9.90625 L 2.421875 -164.234375 L 20.765625 -164.234375 L 77.046875 -31.875 L 133.078125 -164.234375 L 151.4375 -164.234375 Z"/></g></g></g><g fill="#ee742a" fill-opacity="1"><g transform="translate(67.244004, 334.634395)"><g><path d="M 113.875 13.671875 C 105.988281 15.648438 98.84375 14.421875 92.4375 9.984375 C 88.976562 7.515625 87.003906 3.941406 86.515625 -0.734375 C 86.265625 -4.429688 87.128906 -8.378906 89.109375 -12.578125 C 92.054688 -18.484375 95.75 -24.023438 100.1875 -29.203125 C 104.382812 -34.628906 109.066406 -39.617188 114.234375 -44.171875 C 119.410156 -48.734375 124.710938 -52.988281 130.140625 -56.9375 C 138.523438 -62.851562 147.03125 -68.582031 155.65625 -74.125 C 164.28125 -79.675781 173.148438 -84.789062 182.265625 -89.46875 C 185.222656 -90.707031 186.703125 -92.800781 186.703125 -95.75 C 186.703125 -97.726562 186.765625 -99.578125 186.890625 -101.296875 C 187.015625 -103.023438 186.953125 -104.753906 186.703125 -106.484375 C 186.460938 -111.160156 184.738281 -115.472656 181.53125 -119.421875 C 178.820312 -122.378906 175.617188 -124.472656 171.921875 -125.703125 C 168.222656 -126.691406 164.523438 -127.304688 160.828125 -127.546875 C 157.128906 -127.796875 153.304688 -127.675781 149.359375 -127.1875 C 142.460938 -126.6875 135.75 -125.570312 129.21875 -123.84375 C 122.6875 -122.125 116.21875 -120.28125 109.8125 -118.3125 C 101.175781 -116.09375 92.484375 -113.8125 83.734375 -111.46875 C 74.984375 -109.125 66.296875 -106.722656 57.671875 -104.265625 C 50.035156 -102.046875 42.273438 -100.566406 34.390625 -99.828125 C 32.660156 -99.578125 30.867188 -99.515625 29.015625 -99.640625 C 27.171875 -99.765625 25.265625 -99.828125 23.296875 -99.828125 C 19.835938 -100.066406 16.691406 -100.925781 13.859375 -102.40625 C 11.023438 -103.882812 8.253906 -105.734375 5.546875 -107.953125 C 4.316406 -108.941406 3.390625 -110.113281 2.765625 -111.46875 C 2.148438 -112.820312 1.597656 -114.363281 1.109375 -116.09375 C 0.117188 -119.050781 -0.25 -122.007812 0 -124.96875 C 0.25 -127.925781 0.742188 -130.882812 1.484375 -133.84375 C 2.460938 -137.78125 3.753906 -141.597656 5.359375 -145.296875 C 6.960938 -148.992188 8.628906 -152.566406 10.359375 -156.015625 C 15.773438 -166.859375 21.75 -177.269531 28.28125 -187.25 C 34.8125 -197.238281 42.019531 -206.796875 49.90625 -215.921875 C 64.207031 -232.679688 81.21875 -246.484375 100.9375 -257.328125 C 106.601562 -260.523438 112.394531 -263.234375 118.3125 -265.453125 C 124.226562 -267.671875 130.265625 -269.519531 136.421875 -271 C 139.378906 -271.5 142.335938 -271.992188 145.296875 -272.484375 C 148.253906 -272.972656 151.085938 -273.34375 153.796875 -273.59375 C 159.472656 -274.082031 164.648438 -273.710938 169.328125 -272.484375 C 181.410156 -269.273438 189.546875 -262.375 193.734375 -251.78125 C 196.929688 -243.894531 197.796875 -235.632812 196.328125 -227 C 195.335938 -221.582031 194.164062 -216.222656 192.8125 -210.921875 C 191.457031 -205.617188 189.671875 -200.503906 187.453125 -195.578125 C 184.242188 -187.941406 179.804688 -180.914062 174.140625 -174.5 C 172.410156 -172.289062 170.5625 -170.691406 168.59375 -169.703125 C 168.59375 -169.703125 168.222656 -169.703125 167.484375 -169.703125 C 166.992188 -169.953125 166.867188 -170.445312 167.109375 -171.1875 C 167.109375 -171.1875 167.359375 -171.429688 167.859375 -171.921875 C 173.523438 -178.078125 178.144531 -184.851562 181.71875 -192.25 C 185.289062 -199.644531 187.941406 -207.410156 189.671875 -215.546875 C 190.160156 -218.253906 190.648438 -220.960938 191.140625 -223.671875 C 191.640625 -226.390625 192.007812 -229.101562 192.25 -231.8125 C 192.988281 -240.4375 191.265625 -248.941406 187.078125 -257.328125 C 186.828125 -257.816406 186.457031 -258.429688 185.96875 -259.171875 C 185.476562 -259.910156 184.984375 -260.523438 184.484375 -261.015625 C 182.765625 -264.222656 179.804688 -266.195312 175.609375 -266.9375 C 172.898438 -267.675781 170.128906 -268.109375 167.296875 -268.234375 C 164.460938 -268.359375 161.691406 -268.171875 158.984375 -267.671875 C 136.546875 -264.472656 115.71875 -256.09375 96.5 -242.53125 C 86.882812 -235.875 78.070312 -228.414062 70.0625 -220.15625 C 62.050781 -211.90625 54.472656 -203.097656 47.328125 -193.734375 C 34.753906 -177.222656 24.03125 -159.476562 15.15625 -140.5 C 13.925781 -137.289062 12.753906 -134.144531 11.640625 -131.0625 C 10.535156 -127.976562 9.738281 -124.710938 9.25 -121.265625 C 9 -119.296875 8.992188 -117.320312 9.234375 -115.34375 C 9.484375 -113.375 9.859375 -111.40625 10.359375 -109.4375 C 11.097656 -106.96875 12.695312 -105.613281 15.15625 -105.375 C 21.070312 -104.382812 27.234375 -104.257812 33.640625 -105 C 39.804688 -105.488281 45.847656 -106.410156 51.765625 -107.765625 C 57.679688 -109.128906 63.472656 -110.671875 69.140625 -112.390625 C 78.503906 -114.859375 87.804688 -117.320312 97.046875 -119.78125 C 106.296875 -122.25 115.476562 -124.71875 124.59375 -127.1875 C 128.289062 -128.164062 131.925781 -129.023438 135.5 -129.765625 C 139.070312 -130.503906 142.707031 -131 146.40625 -131.25 C 149.363281 -131.5 152.320312 -131.5625 155.28125 -131.4375 C 158.238281 -131.3125 161.195312 -131.003906 164.15625 -130.515625 C 171.550781 -129.035156 178.453125 -125.335938 184.859375 -119.421875 C 190.035156 -114.492188 192.867188 -108.453125 193.359375 -101.296875 L 193.359375 -98.34375 C 193.609375 -97.113281 193.914062 -96.375 194.28125 -96.125 C 194.65625 -95.875 195.457031 -96 196.6875 -96.5 L 198.90625 -97.609375 C 207.78125 -101.304688 216.710938 -105.003906 225.703125 -108.703125 C 234.703125 -112.398438 243.765625 -115.726562 252.890625 -118.6875 C 256.828125 -120.15625 260.828125 -121.441406 264.890625 -122.546875 C 268.960938 -123.660156 272.972656 -124.710938 276.921875 -125.703125 C 279.140625 -126.191406 280.554688 -126.375 281.171875 -126.25 C 281.785156 -126.132812 282.957031 -125.085938 284.6875 -123.109375 C 284.1875 -122.128906 283.503906 -121.640625 282.640625 -121.640625 C 281.785156 -121.640625 280.988281 -121.515625 280.25 -121.265625 C 274.820312 -119.785156 269.519531 -118.304688 264.34375 -116.828125 C 259.164062 -115.347656 253.992188 -113.625 248.828125 -111.65625 C 240.441406 -108.445312 231.992188 -105.238281 223.484375 -102.03125 C 214.984375 -98.832031 206.664062 -95.265625 198.53125 -91.328125 L 196.328125 -90.21875 C 194.109375 -89.71875 192.628906 -87.988281 191.890625 -85.03125 C 190.648438 -79.613281 188.859375 -74.253906 186.515625 -68.953125 C 184.179688 -63.648438 181.65625 -58.535156 178.9375 -53.609375 C 174.75 -46.210938 170.3125 -39.0625 165.625 -32.15625 C 160.945312 -25.257812 155.773438 -18.609375 150.109375 -12.203125 C 147.390625 -8.992188 144.550781 -5.972656 141.59375 -3.140625 C 138.644531 -0.304688 135.441406 2.34375 131.984375 4.8125 C 129.273438 6.78125 126.441406 8.566406 123.484375 10.171875 C 120.523438 11.773438 117.320312 12.941406 113.875 13.671875 Z M 100.1875 10.359375 C 103.144531 10.359375 106.039062 9.925781 108.875 9.0625 C 111.71875 8.195312 114.367188 7.148438 116.828125 5.921875 C 123.234375 2.460938 128.78125 -1.601562 133.46875 -6.28125 C 137.65625 -9.976562 141.410156 -13.859375 144.734375 -17.921875 C 148.066406 -21.992188 151.335938 -26.25 154.546875 -30.6875 C 159.472656 -37.582031 164.15625 -44.601562 168.59375 -51.75 C 173.03125 -58.90625 176.847656 -66.300781 180.046875 -73.9375 C 180.546875 -75.175781 181.164062 -76.535156 181.90625 -78.015625 C 182.644531 -79.492188 183.132812 -81.09375 183.375 -82.8125 C 182.394531 -82.8125 181.472656 -82.625 180.609375 -82.25 C 179.742188 -81.882812 178.941406 -81.457031 178.203125 -80.96875 C 167.109375 -74.800781 156.632812 -68.269531 146.78125 -61.375 C 142.832031 -58.664062 138.882812 -55.890625 134.9375 -53.046875 C 131 -50.210938 127.304688 -47.195312 123.859375 -44 C 119.171875 -40.050781 114.789062 -35.859375 110.71875 -31.421875 C 106.65625 -26.984375 102.898438 -22.300781 99.453125 -17.375 C 98.222656 -15.40625 96.988281 -13.375 95.75 -11.28125 C 94.519531 -9.1875 93.660156 -7.03125 93.171875 -4.8125 C 91.941406 -0.863281 92.0625 2.832031 93.53125 6.28125 C 94.769531 9.238281 96.988281 10.597656 100.1875 10.359375 Z"/></g></g></g><g fill="#262625" fill-opacity="1"><g transform="translate(164.360135, 274.968994)"><g><path d="M 44.6875 -60.375 L 104.34375 -60.375 L 74.640625 -135.984375 Z M 146.609375 0 L 128.25 0 L 110.625 -44.6875 L 38.40625 -44.6875 L 20.765625 0 L 2.421875 0 L 74.640625 -175.59375 Z"/></g></g></g></g></svg></div>
+    <div class="logo-wordmark">
+      <span class="logo-de">DE Visual</span> <span class="logo-story">StorySelling</span> <span class="logo-academy">Academy</span>
+    </div>
+  </div>
+</div>
+
+<!-- MAIN CONTENT -->
+<div class="page-content">
+  <div class="section-label">Rechtliches</div>
+  <div class="coral-divider"></div>
+  <h1 class="page-title">Allgemeine Geschäftsbedingungen</h1>
+
+  <div class="content-block">
+
+    <h2>§ 1 Geltungsbereich</h2>
+    <p>Diese Allgemeinen Geschäftsbedingungen gelten für alle Buchungen der Executive Strategic Session, angeboten durch René van Bakel, Dolce Etruria, Hauptstraße 127, 3032 Eichgraben, Niederösterreich, Österreich (nachfolgend „Anbieter"). Mit der Buchung und Zahlung akzeptiert der Kunde diese AGB vollständig.</p>
+
+    <h2>§ 2 Leistungsbeschreibung</h2>
+    <p>Die Executive Strategic Session ist eine private, 90-minütige Einzelberatung zur strategischen Positionierung. Die Session findet online via Zoom statt. Gegenstand der Beratung ist die individuelle Analyse der aktuellen Marktpositionierung sowie die Erarbeitung konkreter Handlungsempfehlungen.</p>
+
+    <h2>§ 3 Preis und Zahlung</h2>
+    <p>Der Preis für die Executive Strategic Session beträgt € 1.000,– exklusive der gesetzlichen Umsatzsteuer. Die Zahlung erfolgt vollständig und im Voraus über den Zahlungsdienstleister Stripe. Der Termin wird erst nach vollständigem Zahlungseingang verbindlich bestätigt und zur Buchung freigegeben.</p>
+
+    <h2>§ 4 Terminbuchung</h2>
+    <p>Die Terminbuchung erfolgt ausschließlich nach erfolgter Zahlung über die bereitgestellte Buchungsplattform (Cal.com). Erst mit der Buchungsbestätigung durch den Anbieter kommt ein verbindlicher Vertrag zustande.</p>
+
+    <h2>§ 5 Stornierung und Terminverschiebung</h2>
+    <p>Eine kostenfreie Stornierung ist bis 24 Stunden vor dem vereinbarten Termin möglich. Bei Stornierung innerhalb dieser Frist oder bei Nichterscheinen verfällt der Anspruch auf die Session ohne Rückerstattung des Entgelts.</p>
+    <p>Erscheint der Kunde zum vereinbarten Termin nicht und hat keine rechtzeitige Stornierung vorgenommen, gilt der Termin als wahrgenommen und die Leistung als erbracht. Ein Anspruch auf Wiederholung der Session oder Rückerstattung des Entgelts besteht in diesem Fall nicht.</p>
+    <p>Eine einmalige Terminverschiebung ist bis 24 Stunden vor dem vereinbarten Termin möglich und muss per E-Mail an <a href="mailto:rene@dolceetruria.com">rene@dolceetruria.com</a> beantragt werden. Ein Anspruch auf einen bestimmten Ausweichtermin besteht nicht.</p>
+
+    <h2>§ 6 Widerrufsrecht</h2>
+    <p>Bei der Executive Strategic Session handelt es sich um eine digitale Dienstleistung, die nach ausdrücklicher Zustimmung des Kunden vor Ablauf der Widerrufsfrist vollständig erbracht wird. Mit der Buchung des Termins erklärt der Kunde sein ausdrückliches Einverständnis damit, dass das Widerrufsrecht mit Buchungsbestätigung erlischt (§ 18 Abs. 1 Z 11 FAGG).</p>
+    <p>Der Kunde bestätigt mit der Buchung ausdrücklich, dass er auf sein Widerrufsrecht verzichtet, sobald die Leistung vollständig erbracht wurde. Bei Dienstleistungen, die vollständig erbracht wurden, besteht kein Widerrufsrecht gemäß § 18 FAGG.</p>
+
+    <h2>§ 7 Keine Erfolgsgarantie</h2>
+    <p>Der Anbieter erbringt die Beratungsleistung nach bestem Wissen und Gewissen. Die Executive Strategic Session ist eine Beratungsleistung: geschuldet ist die sorgfältige Durchführung der Session, nicht ein bestimmtes wirtschaftliches Ergebnis oder ein konkreter Geschäftserfolg. Eine Erfolgsgarantie wird ausdrücklich nicht übernommen.</p>
+    <p>Die Umsetzung der in der Session erarbeiteten Empfehlungen und Strategien liegt ausschließlich in der Verantwortung des Kunden. Der Anbieter haftet nicht für Entscheidungen, die der Kunde auf Basis der Beratung trifft.</p>
+
+    <h2>§ 8 Haftungsbeschränkung</h2>
+    <p>Die Haftung des Anbieters ist auf Fälle von Vorsatz und grober Fahrlässigkeit beschränkt. Eine Haftung für leichte Fahrlässigkeit sowie für mittelbare Schäden, entgangenen Gewinn oder Folgeschäden ist ausgeschlossen, soweit dies gesetzlich zulässig ist.</p>
+
+    <h2>§ 9 Vertraulichkeit</h2>
+    <p>Beide Parteien verpflichten sich, alle im Rahmen der Session ausgetauschten Informationen vertraulich zu behandeln und nicht ohne ausdrückliche Zustimmung der jeweils anderen Partei an Dritte weiterzugeben.</p>
+
+    <h2>§ 10 Anwendbares Recht und Gerichtsstand</h2>
+    <p>Es gilt ausschließlich österreichisches Recht unter Ausschluss des UN-Kaufrechts. Gerichtsstand für alle Streitigkeiten aus oder im Zusammenhang mit diesen AGB ist Österreich.</p>
+
+    <h2>§ 11 Salvatorische Klausel</h2>
+    <p>Sollten einzelne Bestimmungen dieser AGB unwirksam sein oder werden, bleibt die Wirksamkeit der übrigen Bestimmungen unberührt. Die unwirksame Bestimmung ist durch eine wirksame zu ersetzen, die dem wirtschaftlichen Zweck der unwirksamen Bestimmung am nächsten kommt.</p>
+
+    <h2>Stand</h2>
+    <p>März 2026</p>
+
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <span class="footer-brand">DE Visual StorySelling Academy</span>
+  <div class="footer-links">
+    <a href="impressum.html">Impressum</a>
+    <a href="privacy.html">Datenschutz</a>
+    <a href="agb.html" class="active">AGB</a>
+  </div>
+</footer>
+
+</body>
+</html>
